@@ -23,12 +23,12 @@ const LoginPage = ({navigation,route}) =>{
         marginLeft: 0}}
         textStyle={{position:'absolute', color: 'black',fontWeight:'bold',fontSize: 38, 
         fontFamily:'Arial',
-        top:  (Dimensions.get('window').height/2)-250 ,
+        top:  (Dimensions.get('window').height/2)-180 ,
         left:(Dimensions.get('window').width/2)-170}}
         pinStyle={{ height:60,fontSize:22,borderWidth:2,borderColor:'silver',backgroundColor:'white',
          textAlign: 'center', flex: 1, marginLeft: 25, marginRight: 0, borderRadius: 5,
           shadowColor: '#000000', shadowOffset: {width: 1,height : 1}, 
-          shadowRadius: 5, shadowOpacity : 0.4 }}
+          shadowRadius: 5, shadowOpacity : 0.4 ,marginTop:120}}
         errorStyle={{position:'absolute', color: 'red',fontWeight:'bold',fontSize: 20, 
         fontFamily:'Arial',
         top:  -100 ,
